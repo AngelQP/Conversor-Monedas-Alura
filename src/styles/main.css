@@ -1,0 +1,80 @@
+/* ESTILOS DEL MENU */
+.menuItem {
+	-fx-background-color: transparent;
+	background-color: transparent;
+}
+
+.menuItem:hover {
+	-fx-border-color: #EF4E42;
+	border-color: #EF4E42;
+	-fx-background-color: #EF4E42;
+	background-color: #EF4E42;
+	-fx-border-width: 0px 0px 2px 0px;
+}
+
+/* ESTILOS DE CASILLA DE TEXTO */
+.text {
+	-fx-text-fill: #575D76;
+}
+
+/* ESTILOS DEL COMBOBOX */
+.combo-box .list-cell 
+{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+    -fx-text-fill: #575D76;
+    -fx-padding: 3 0 5 7;
+    -fx-cell-size: 1.66667em; 
+}
+
+.combo-box-popup .list-view 
+{
+    -fx-background-color: white, white;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 8, 0.0 , 0 , 0 );
+}    
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-padding: 4 0 4 5;
+    -fx-cursor: hand;
+
+    /* No alternate highlighting */
+    -fx-background-color: white;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-background: white;
+    -fx-background-color: white;
+    -fx-text-fill: #88C6FF;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: white;
+    -fx-text-fill: #88C6FF;
+}
+
+.combo-box-base  
+{
+    -fx-background-color: white, white, white, white;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+}
+
+.combo-box-base:hover
+{
+    -fx-color: white;
+}
+
+.combo-box-base:showing 
+{
+    -fx-color: white;
+}
+
+.combo-box-base:disabled {
+    -fx-opacity: .4;
+}
